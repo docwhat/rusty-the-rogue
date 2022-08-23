@@ -1,0 +1,20 @@
+#!/bin/bash
+
+set -eu
+
+cd "$(dirname "$0")"
+cd ..
+
+x() {
+  {
+    printf "+ "
+    printf "%q " "$@"
+    printf "\n"
+  } >&2
+  "$@"
+}
+
+x cargo install cargo-checkmate
+x cargo checkmate git-hook install
+
+# EOF

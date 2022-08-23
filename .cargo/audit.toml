@@ -1,0 +1,30 @@
+[advisories]
+ignore = [
+    # nix -- Out-of-bounds write in nix::unistd::getgrouplist
+    # bracket-lib needs to update its dependencies but the author is on sabattical.
+    "RUSTSEC-2021-0119",
+
+    # owning_ref -- Multiple soundness issues in `owning_ref`
+    # cargo dev utils
+    "RUSTSEC-2022-0040",
+
+    # time -- Potential segfault in the time crate
+    # don't care at the moment
+    "RUSTSEC-2020-0071",
+
+    # ansi_term -- ansi_term is unmaintained
+    # bracket-lib needs to update its dependencies but the author is on sabattical.
+    "RUSTSEC-2021-0139",
+
+    # net2 -- `net2` crate has been deprecated; use `socket2` instead
+    # bracket-lib needs to update its dependencies but the author is on sabattical.
+    "RUSTSEC-2020-0016",
+
+    # dirs -- dirs is unmaintained, use dirs-next instead
+    # bracket-lib needs to update its dependencies but the author is on sabattical.
+    "RUSTSEC-2020-0053",
+
+    # xml-rs -- xml-rs is Unmaintained
+    # bracket-lib needs to update its dependencies but the author is on sabattical.
+    "RUSTSEC-2022-0048",
+]
