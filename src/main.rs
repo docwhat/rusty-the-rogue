@@ -1,5 +1,3 @@
-#![allow(dead_code, unused)] // TODO: remove this
-
 mod map;
 mod player;
 

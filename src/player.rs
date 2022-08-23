@@ -1,5 +1,3 @@
-#![allow(dead_code, unused)] // TODO: remove this
-
 use crate::prelude::*;
 
 pub struct Player {
