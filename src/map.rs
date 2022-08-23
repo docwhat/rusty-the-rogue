@@ -1,10 +1,8 @@
-#![allow(dead_code, unused)] // TODO: remove this
-
 use crate::prelude::*;
 
 const NUM_TILES: usize = (SCREEN_WIDTH * SCREEN_HEIGHT) as usize;
 
-#[derive(Copy, Clone, PartialEq)]
+#[derive(Copy, Clone, PartialEq, Eq)]
 pub enum TileType {
     Wall,
     Floor,
