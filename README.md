@@ -1,3 +1,5 @@
+[![Continuous Integration](https://github.com/docwhat/rusty-the-rogue/actions/workflows/cargo-checkmate.yaml/badge.svg)](https://github.com/docwhat/rusty-the-rogue/actions/workflows/cargo-checkmate.yaml)
+
 # Rusty the Rogue
 
 A rogue-like base on the game from the book _Hands on Rust_.
