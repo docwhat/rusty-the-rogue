@@ -391,9 +391,9 @@ dependencies = [
 
 [[package]]
 name = "cargo-checkmate"
-version = "0.1.12"
+version = "0.1.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "66fe7d344efdaebe0aa834a20bcb14d730b595d30a26d2d704185aa42c3e373a"
+checksum = "a52cb2366fc6980626cb9e99f504c4c0d2f8f7500aa2b482e538871418973c89"
 dependencies = [
  "abscissa_core",
  "cargo-audit",
